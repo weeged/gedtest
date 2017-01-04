@@ -6,7 +6,7 @@ import (
 )
 
 func defaultHandler(w http.ResponseWriter, r *http.Request) {
-    fmt.Fprintf(w, "<h1>Hello from Cisco Shipped!</h1>\n")
+    fmt.Fprintf(w, "<h1>Hello from Cisco Shipped!  Shmersh!!!!</h1>\n")
 }
 
 func main() {
